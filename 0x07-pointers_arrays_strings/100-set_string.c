@@ -1,11 +1,15 @@
+/*
+ * File: 9-set_string.c
+ */
+
 #include "main.h"
-#include <stdio.h>
+
 /**
- * set_string - sets value of a pointer to a char
- *
- * Return: void
- *
- */void set_string(char **s, char *to)
+ * set_string - Sets the value of a pointer to a char.
+ * @s: The pointer.
+ * @to: The char.
+ */
+void set_string(char **s, char *to)
 {
 	*s = to;
 }
